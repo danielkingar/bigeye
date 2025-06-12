@@ -1,0 +1,85 @@
+
+
+/*
+ * Base structure
+ */
+
+ body, .container-fluid {
+   height: 100vh !important;
+}
+
+ .titulo, .lato-bold {
+   font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 75px;
+  color: #cbcbcb;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  
+}
+
+.texto {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #cbcbcb;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  padding-right: 20%;
+
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+.gradient-custom {
+
+  /* fallback for old browsers */
+  background: #005f15;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106,161,0,1), rgba(0,95,21,1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right,rgba(106,161,0,1), rgba(0,95,21,1));
+  background-attachment: fixed;
+}
+
+.info {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.btn-web{
+    background: linear-gradient(90deg, #005f15 -40.59%, #4b890b 57.82%, #6aa100 91.56%);
+    border-radius: 99px 99px 99px 99px;
+    
+}
+
+.btn-web :hover{   
+    background:#005f15 !important;
+    border-radius: 99px 99px 99px 99px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+  .titulo {
+   font-size: 40px;
+   text-align: center;
+  }
+
+  .texto {
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .row{
+    justify-content: center !important;
+    height: auto !important;
+  }
+}
