@@ -404,7 +404,13 @@ h1 {
 .h2,
 h2 {
     font-size: 2rem
+       
 }
+
+h2{
+    font-weight: 700;
+}
+
 
 .h3,
 h3 {
@@ -10559,6 +10565,7 @@ h2 {
 @media (max-width:756px) {
     h2 {
         font-size: 32px
+        
     }
 }
 
@@ -10593,7 +10600,7 @@ p {
 body {
     font-family: "Inter", sans-serif;
     margin: 0;
-    color: #6B4C23
+    color: #195f23;
 }
 
 body.body-top-padding {
